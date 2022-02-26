@@ -1,7 +1,12 @@
-body
-{
-    background-image:url(images/annie.jpeg);
-
+body{
+    margin:0;
+    height:100%;
+}
+img{
+  display:block;
+  width:100%; 
+  height:100%;
+  object-fit: cover;
 }
 
 .me{
@@ -12,7 +17,7 @@ body
     position: absolute;
     top: 400px;
     left: 30px;
-    color: navajowhite;
+    color: whitesmoke;
     font-weight:bolder;
     font-size:100px;
     font-style:inherit;
@@ -22,7 +27,7 @@ body
     position: absolute;
     bottom: 300px;
     left: 30px;
-    color: navajowhite;
+    color: white;
     font-weight:800;
     font-size:50px;
     font-style:inherit;
@@ -40,4 +45,3 @@ body
           background-color: black;
         }
       }
-}
