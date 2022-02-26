@@ -1,5 +1,31 @@
 body
 {
-    background-image:url('images/annie.jpeg');
+    background-image:url(images/annie.jpeg);
 
 }
+
+.me{
+    margin: 3%;
+    position: relative;
+}
+.name {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    color: silver;
+    font-weight:bolder;
+    font-size:100px;
+    font-style:inherit;
+}
+
+.innovative {
+    position: absolute;
+    bottom: 300px;
+    left: 30px;
+    color: silver;
+    font-weight:800;
+    font-size:50px;
+    font-style:inherit;
+}
+
+  
