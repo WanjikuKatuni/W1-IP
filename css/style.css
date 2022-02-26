@@ -12,7 +12,7 @@ body
     position: absolute;
     top: 400px;
     left: 30px;
-    color: silver;
+    color: navajowhite;
     font-weight:bolder;
     font-size:100px;
     font-style:inherit;
@@ -22,10 +22,16 @@ body
     position: absolute;
     bottom: 300px;
     left: 30px;
-    color: silver;
+    color: navajowhite;
     font-weight:800;
     font-size:50px;
     font-style:inherit;
 }
 
   
+@media screen and (min-width:480px) {
+    body {
+        background-color: silver;
+        color: lime;
+    }
+}
