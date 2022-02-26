@@ -40,3 +40,12 @@ img{
      bottom: 200px;
      left: 30px;
  }
+
+ .social links {
+    color: white;
+    font-weight: 300;
+    font-size:x-large;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+}
