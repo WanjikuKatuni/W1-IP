@@ -32,16 +32,11 @@ img{
     font-size:50px;
     font-style:inherit;
 }
-
-  
-@media screen and (min-width:480px) {
-    body {
-        background-color: navajowhite;
-        color: lime;
-    }
-}
- @media screen and (min-width: 768px) {
-        body {
-          background-color: black;
-        }
-      }
+ .btn-group {
+     color: white;
+     font-weight: 500;
+     font-size:xx-large;
+     position: absolute;
+     bottom: 200px;
+     left: 30px;
+ }
