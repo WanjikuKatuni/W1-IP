@@ -60,3 +60,32 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.blurpage-text1{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    color: white;
+    font-weight:600;
+    font-size:50px;
+    font-style:inherit;
+}
+.blurpage-text2{
+    position: absolute;
+    bottom: 70px;
+    left: 5px;
+}
+   
+
+.blurpage-text3{
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+    ;
+}
+.blurpage-text4{
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+    color: white;
+    f
