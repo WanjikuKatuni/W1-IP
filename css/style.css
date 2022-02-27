@@ -9,10 +9,7 @@ img{
   object-fit: cover;
 }
 
-.me{
-    margin: 3%;
-    position: relative;
-}
+
 .name {
     position: absolute;
     top: 400px;
