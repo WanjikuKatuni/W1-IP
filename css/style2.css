@@ -27,7 +27,7 @@ img{
     font-style:inherit;
 }
 
-.backgroundinfo, .lang{
+.backgroundinfo {
     position: absolute;
     top: 230px;
     left: 30px;
@@ -46,7 +46,7 @@ img{
     font-size:30px;
     font-style:inherit;
 }
-.interests, .proj {
+.interests {
     position: absolute;
     top: 500px;
     left: 30px;
@@ -88,4 +88,33 @@ img{
   top: 0px;
   left: 500px;
   filter:opacity(200)
+}
+
+.lang{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: white;
+    font-weight:400;
+    font-size:50px;
+    font-style:inherit;
+}
+.proj {
+    position: absolute;
+    top: 670px;
+    left: 30px;
+    color: white;
+    font-weight:400;
+    font-size:50px;
+    font-style:inherit;
+}
+
+.listofproj {
+    position: absolute;
+    top: 720px;
+    left: 30px;
+    color: white;
+    font-weight:400;
+    font-size:30px;
+    font-style:inherit;
 }
