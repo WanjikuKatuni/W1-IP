@@ -65,3 +65,27 @@ img{
     font-style:inherit;
 }
 
+.portfolio{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    color: whitesmoke;
+    font-weight:bolder;
+    font-size:80px;
+    font-style:inherit;
+}
+
+.htmlpic
+{
+  position: relative;
+  top: 40px;
+  left: 0px;
+  filter:opacity(200)
+}
+.csspic
+{
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  filter:opacity(200)
+}
