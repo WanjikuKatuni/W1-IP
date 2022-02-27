@@ -1,33 +1,42 @@
-body {
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-  .bg-image {
-    
-    background-image: url("annie.jpeg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
-  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+body{
+    margin:0;
+    height:100%;
+    background-color: black;
+}
+img{
+  display:block;
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+}
   
 
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
+.aboutme{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-  }
+    top: 80px;
+    left: 30px;
+    color: whitesmoke;
+    font-weight:bolder;
+    font-size:80px;
+    font-style:inherit;
+}
+
+.backgroundinfo{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    color: white;
+    font-weight:400;
+    font-size:50px;
+    font-style:inherit;
+}
+
+.backinfo{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    color: white;
+    font-weight:400;
+    font-size:30px;
+    font-style:inherit;
+}
