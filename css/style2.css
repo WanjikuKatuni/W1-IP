@@ -118,3 +118,8 @@ img{
     font-size:30px;
     font-style:inherit;
 }
+
+@media screen and (min-width:480px) and (max-width:760px) {
+    
+        
+}
