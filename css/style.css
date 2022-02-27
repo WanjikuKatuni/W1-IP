@@ -1,6 +1,7 @@
 body{
     margin:0;
     height:100%;
+    background-color: black;
 }
 img{
   display:block;
@@ -8,6 +9,8 @@ img{
   height:100%;
   object-fit: cover;
 }
+
+
 
 
 .name {
@@ -45,4 +48,15 @@ img{
     position: absolute;
     bottom: 200px;
     left: 30px;
+}
+
+.bg-image {
+  
+    background-image: url("annie.jpeg");
+    filter: blur(60px);
+    -webkit-filter: blur(7px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
