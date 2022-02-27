@@ -40,3 +40,22 @@ img{
     font-size:30px;
     font-style:inherit;
 }
+.interests {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    color: white;
+    font-weight:400;
+    font-size:50px;
+    font-style:inherit;
+}
+.listofinterests {
+    position: absolute;
+    top: 570px;
+    left: 30px;
+    color: white;
+    font-weight:400;
+    font-size:30px;
+    font-style:inherit;
+}
+
